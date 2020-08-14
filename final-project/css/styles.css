@@ -1,0 +1,818 @@
+/* ===== FONTS ===== */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,300,500,700);
+
+
+
+/* ===== MAIN STYLES ===== */
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #f6f4ee;
+  color: #777777;
+  font: 400 13px/21px 'Ubuntu', sans-serif;
+  -webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4
+{
+  font: inherit;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  color: #464646;
+}
+
+h4
+{
+  margin: 0;
+}
+
+a
+{
+  font: inherit;
+  font-style: italic;
+  color: inherit;
+  text-decoration: none;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+p
+{
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+strong
+{
+  font-weight: 700;
+}
+
+img
+{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+ul
+{
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+main
+{
+  background: #f6f4ee;
+}
+
+
+
+/* ===== NO SLIDER ===== */
+
+.sl_empty
+{
+  position: relative;
+  display: block;
+  text-align: center;
+  min-height: 260px;
+  background: url(../images/header_bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+
+
+/* ===== BRAND LOGO ===== */
+
+.brand_logo
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+  width: auto;
+  color: white;
+}
+
+.brand_name_logo
+{
+  overflow: hidden;
+  font-size: 42px;
+  line-height: 1;
+  font-weight: bold;
+  margin-top: 8px;
+  color: white;
+}
+
+.brand_slogan
+{
+  margin-top: 6px;
+  font-style: italic;
+}
+
+
+
+/* ===== SECTION STYLES ===== */
+
+section
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+section.top
+{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+section.top
+{
+  padding: 0;
+}
+
+section.middle
+{
+  padding-top: 0;
+}
+
+section.pano
+{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+section.pano.home
+{
+  background: url(../images/pano04.jpg) center no-repeat;
+}
+
+section.pano.about
+{
+  background: url(../images/pano02.jpg) center no-repeat;
+}
+
+.pano_text
+{
+  position: relative;
+  line-height: 1.2;
+  margin: 0 5%;
+}
+
+.pano_title_1
+{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.pano_title_2
+{
+  font-style: italic;
+  margin-top: 10px;
+}
+
+section.map
+{
+  padding: 0;
+}
+
+section.bottom
+{
+  background-color: #d3d1cc;
+  padding-top: 25px;
+}
+
+section.bottom h2
+{
+  margin: 0;
+}
+
+blockquote
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
+
+
+
+
+/* ===== BUTTONS ===== */
+
+.btn_row
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.btn
+{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.btn a
+{
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 26px;
+  padding: 5px 19px;
+  color: #464646;
+  background-color: #d3d1cc;
+}
+
+.btn a:hover, .mission > a
+{
+  background-color: #464646;
+  color: white;
+}
+
+.slider_btn, .pano_btn, .shop_btn
+{
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-style: normal;
+  padding: 6px 16px;
+  color: white;
+  border: solid white 2px;
+}
+
+.slider_btn
+{
+  margin: 0;
+}
+
+.slider_btn ~ .slider_btn
+{
+  margin-left: 10px;
+}
+
+.shop_btn
+{
+  font-size: 13px;
+  padding: 5px 14px;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+.slider_btn:hover, .pano_btn:hover, .shop_btn:hover
+{
+  color: #464646;
+  background-color: white;
+}
+
+.btn_row .slider_btn
+{
+  border: solid transparent 2px;
+}
+
+.btn_row .slider_btn:hover
+{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+
+
+/* ===== CONTENT ===== */
+
+.container
+{
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.container h2
+{
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin: 25px 0 0 0;
+}
+
+.container > p, .prod_about_text > p
+{
+  margin-top: 25px;
+}
+
+.container > hr
+{
+  margin: 25px auto 0 auto;
+  width: 31.5%;
+  height: 2px;
+  border: 0;
+  background-color: #d3d1cc;
+}
+
+.title_1
+{
+  font-style: italic;
+}
+
+.title_2
+{
+  font-size: 23px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.title_3
+{
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.row, .about_list
+{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.prod_arrival ~ .prod_arrival, .prod_featured ~ .prod_featured, .quote ~ .quote, .footer_advert ~ .footer_advert, .prod_about_text, .about_list > li ~ li, .mission ~ .mission, .contact_list > li ~ li, .socials, .copyright
+{
+  margin-left: 20px;
+}
+
+.prod_arrival, .prod_featured
+{
+  position: relative;
+}
+
+.prod_text
+{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 0;
+  line-height: 1;
+}
+
+.prod_about_text
+{
+  width: 100%;
+  text-align: left;
+}
+
+.prod_text > .title_2 > strong
+{
+  font-size: 30px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.shop > .prod_text
+{
+  position: absolute;
+  top: 55%;
+}
+
+.shop > .prod_text > p
+{
+  text-shadow: 1px 1px 2px black, 0 0 2em black;
+  line-height: 26px;
+}
+
+blockquote
+{
+  font-style: italic;
+  position: relative;
+  text-align: center;
+}
+
+blockquote, q
+{
+  quotes: none;
+}
+
+blockquote cite
+{
+  display: block;
+  font-weight: bold;
+  color: #464646;
+  font-style: normal;
+}
+
+.quote_img
+{
+  position: absolute;
+  top: -48px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.quote_img img
+{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.quote_text
+{
+  background-color: #e1e0dd;
+  padding: 20px 15px;
+  position: relative;
+  padding-top: 60px;
+  margin-top: 48px;
+}
+
+.mission
+{
+  text-align: left;
+  width: 100%;
+}
+
+.mission > h4
+{
+  margin-top: 25px;
+}
+
+.mission > a
+{
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 26px;
+  padding: 5px 19px;
+  margin-top: 25px;
+}
+
+.mission > a:hover
+{
+  background-color: #797979;
+}
+
+.about_list
+{
+  counter-reset: li;
+}
+
+.about_list li::before
+{
+  width: 90px;
+  height: 90px;
+  margin-bottom: 22px;
+  border: solid #d3d1cc 2px;
+  display: inline-block;
+  text-align: center;
+  content: counter(li, decimal) ".";
+  counter-increment: li;
+  font-size: 42px;
+  line-height: 85px;
+  font-weight: bold;
+  color: #464646;
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contact_list
+{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
+}
+
+ul.contact_list a:hover
+{
+  text-decoration: underline;
+}
+
+dl
+{
+  text-align: center;
+  margin: 25px 0 0;
+}
+
+.contact_list address
+{
+  font-weight: bold;
+  color: #464646;
+  font-style: normal;
+}
+
+.contact_list li dt
+{
+  float: left;
+  font-size: 14px;
+}
+
+.contact_list li dd
+{
+  float: right;
+}
+
+.contact_list li dd a
+{
+  font-style: normal;
+}
+
+.contact_list li dl.email dd a
+{
+  font-style: italic;
+}
+.contact_list li dl + dl
+{
+  text-align: center;
+  clear: both;
+}
+
+.contact_list li dl + dl dd, .contact_list li dl + dl dt
+{
+  display: inline-block;
+  float: none;
+  margin-left: 0;
+}
+
+.contact_list li dd + dt
+{
+  clear: both;
+  margin-top: 0;
+}
+
+
+
+/* ===== MEDIA ===== */
+
+@media only screen and (max-width: 999px)
+{
+  .btn_row .slider_btn, .pano_btn
+  {
+    font-size: 13px;
+    padding: 5px 8px;
+  }
+
+  .brand_logo
+  {
+    top: 7%;
+  }
+}
+
+
+
+@media only screen and (max-width: 809px)
+{
+  .shop > .prod_text
+  {
+    top: 50%;
+  }
+}
+
+
+
+@media only screen and (max-width: 741px)
+{
+  ul
+  {
+    display: inline-flex;
+  }
+
+  .header_top
+  {
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+  }
+
+  input
+  {
+  width: 100%;
+  height: 20px;
+  padding:0;
+  }
+
+  .brand_logo
+  {
+    top: 17%;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .brand_name_logo, .pano_title_1
+  {
+    font-size: 26px;
+  }
+
+  .brand_logo > img
+  {
+    width: 20%;
+  }
+
+  .container
+  {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .row, .about_list, .contact_list
+  {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .row > *
+  {
+    width: 100%;
+  }
+
+  .prod_arrival img, .prod_about img, .mission img
+  {
+    width: 100%;
+  }
+
+  .prod_arrival ~ .prod_arrival, .prod_featured ~ .prod_featured, .mission ~ .mission, .footer_advert ~ .footer_advert, .about_list li ~ li, .contact_list li ~ li, .quote ~ .quote
+  {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .prod_about_text h4
+  {
+    margin-top: 25px;
+  }
+
+  .pano
+  {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer_advert
+  {
+    width: 100%;
+  }
+
+  .footer_bottom
+  {
+    flex-direction: column;
+  }
+
+  .prod_about_text, .socials, .copyright
+  {
+  margin-left: 0;
+  }
+}
+
+
+
+@media only screen and (max-width: 479px)
+{
+  .brand_name_logo, .pano_title_1
+  {
+    font-size: 20px;
+  }
+
+  .btn_row .slider_btn, .pano_btn, .shop_btn
+  {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .brand_logo
+  {
+    top: 15%;
+  }
+
+  .container
+  {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .prod_text > .title_2 > strong
+  {
+    font-size: 25px;
+  }
+
+  .prod_text > .title_2
+  {
+    font-size: 18px;
+  }
+
+  .prod_text > .title_3
+  {
+    font-size: 15px;
+  }
+
+  .shop > .prod_text > p
+  {
+    line-height: 20px;
+  }
+
+  .shop > .prod_text
+  {
+  top: 50%;
+  }
+
+  .pano
+  {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+
+
+@media only screen and (max-width: 319px)
+{
+  .shop > .prod_text
+  {
+    top: 40%;
+  }
+}
+
+
+
+@media only screen and (max-width: 279px)
+{
+  .container
+  {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .shop > .prod_text > p
+  {
+    line-height: 13px;
+  }
+
+  .shop > .prod_text
+  {
+    top: 30%;
+  }
+
+  .prod_text
+  {
+    top: 20%;
+  }
+
+  .prod_text > .title_2 > strong
+  {
+    font-size: 15px;
+  }
+
+  .prod_text > .title_2
+  {
+    font-size: 13px;
+  }
+
+  .brand_name_logo, .pano_title_1
+  {
+    font-size: 15px;
+  }
+
+  .pano
+  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
