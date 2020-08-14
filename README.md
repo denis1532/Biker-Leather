@@ -1,8 +1,8 @@
-### It-Academy final project
+## It-Academy final project
 
-* **First name:** Denis
-* **Last name:** Slavenko
-* **Start studying date:** 24.08.2019
-* **Graduation date:** 16.11.2019
-* **Final project grade (10-point grading scale):** 7
+* **First name:** _Denis_
+* **Last name:** _Slavenko_
+* **Start studying date:** _24.08.2019_
+* **Graduation date:** _16.11.2019_
+* **Final project grade (10-point grading scale):** _7_
 * [Template link](https://www.templatemonster.com/ru/demo/54809.html "Link to the template used for the project")
